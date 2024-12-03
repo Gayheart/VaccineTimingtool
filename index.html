@@ -7,5 +7,20 @@
 </head>
 <body>
     <h1>Tetanus Vaccine Scheduler</h1>
+
+    <form id="frm1" action="/action_page.php">
+        <label for="PatientID">PatientID:</label>
+        <input type="text" id="PatientID" name="PatientID" value="AAB1332"><br>
+
+        <label for="InitialDate">Initial Date:</label>
+        <input type="date" id="InitialDate" name="InitialDate">
+    </form> <br>
+
+    <button onclick="dateCalc()">Calculate</button><br>
+    
+    <p id="Dates"></p>
+
+    <script src="dateCalc.js"></script>
+      
 </body>
 </html>
