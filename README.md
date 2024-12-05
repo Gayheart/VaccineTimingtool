@@ -18,6 +18,7 @@ The application was deployed and hosted on an Apache server on an AWS Linux inst
 3. Downloading the application files from GitHub using wget.
 4. Configuring the Apache server to serve the application files.
 5. Starting the Apache server to make the application accessible.
+Kindly reach out to me via mail @mawuenalawoe@gmail.com to try out PAge hosted on an Instance
 
 Alternatively, the application can also be hosted using GitHub Pages. This involves the following steps:
 
