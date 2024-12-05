@@ -23,9 +23,11 @@ Alternatively, the application can also be hosted using GitHub Pages. This invol
 
 1. Creating a GitHub repository for the application.
 2. Enabling GitHub Pages for the repository.
-3. Configuring the GitHub Pages settings to serve the application files.
-4. Updating the repository with the latest application files.
-
-Future Development
+    a. Go to Repository Settings: Navigate to the repository's settings page.
+    b. Select GitHub Pages: In the left-hand menu, click on "Pages" under the "Code and automation" section.
+    c. Select Source: Choose the source branch and directory to deploy from. For example, select "main" as the branch and "/" (root directory) as the source directory.
+   Github pages is auto-enabled and domain created. In my case [https://gayheart.github.io/VaccineTimingtool/]
+   
+    Future Development
 
 The next phase of the project involves integrating Amazon SNS to send vaccination dates to clients via SMS and email. Additionally, a reminder feature will be implemented to send reminders to clients a day before the vaccination date.
